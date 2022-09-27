@@ -1,4 +1,6 @@
+//abstract superClass
 public abstract class Pokemon {
+//    variables
     private String name;
     private int level;
     private int hp;
@@ -6,6 +8,7 @@ public abstract class Pokemon {
     private String type;
     private String sound;
 
+//    constructors
     public Pokemon() {
     }
 
@@ -19,6 +22,7 @@ public abstract class Pokemon {
 
 
     }
+//getters & setters
 
     public String getName() {
         return name;
@@ -68,27 +72,8 @@ public abstract class Pokemon {
         this.type = type;
     }
 
+//    abstract methods
     public abstract void eats();
 
     public abstract void speaks();
 }
-//    Pokèmon kunnen ook ontzettend veel verschillende acties uitvoeren. Zo kun je denken aan de volgende methodes:
-//
-//        eats()
-//        speaks()
-//        thunderPunch()
-//        surf()
-//        leafStorm()
-//        inferno()
-//        electroBall()
-//        pyroBall*()
-//        solarBeam()
-//        hydroPump()
-//        thunder()
-//        hydroCanon()
-//        fireLash()
-//        leechSeed()
-//        voltTackle()
-//        rainDance()
-//        leaveBlade()
-//        flameThrower()
